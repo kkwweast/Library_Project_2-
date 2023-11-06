@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .bold-cursive{
+        font-family: cursive;
+        font-weight: bold;
+        font-size:40px;
+    }
+    .input-box {
+      background-color: lightblue;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+    }
+
+    .input-box.pink {
+      background-color: pink;
+    }
+
+    .input-box.light-purple {
+      background-color:blueviolet;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="bold-cursive">Library Project</div>
+  <div class="input-box">
+    <p> <strong>The Hobbit</strong></p>
+    <p>J.R.R. Tolkien</p>
+    <p>300 pages</p>
+    <p>9780547951973</p>
+    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="this.parentNode.remove()" type="button">Remove</button>
+  </div>
+
+  <div class="input-box pink">
+    <p><strong>The Fellowship of the Ring</strong></p>
+    <p>J.R.R. Tolkien</p>
+    <p>450 pages</p>
+    <p>9780618574940</p>
+    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="this.parentNode.remove()" type="button">Remove</button>
+  </div>
+
+  <div class="input-box light-purple">
+    <p><strong>The Return of the King</strong></p>
+    <p>J.R.R. Tolkien</p>
+    <p>500 pages</p>
+    <p>9780618260584</p>
+    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="this.parentNode.remove()" type="button">Remove</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
