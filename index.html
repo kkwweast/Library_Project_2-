@@ -1,7 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Project</title>
+
+</head>
+<body> 
+  <form id="addBookForm">
+    <label for="title"></label>
+    <input type="checkbox" id="read">
+
+   
+  </form>
+
+  <table id="libraryTable">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th><div id="Pages"></div></th>
+      </tr>
+    </thead>
+    <tbody id="libraryBody">
+     
+    </tbody>
+  </table>
+
   <style>
     .bold-cursive{
         font-family: cursive;
@@ -33,7 +58,7 @@
     <p>J.R.R. Tolkien</p>
     <p>300 pages</p>
     <p>9780547951973</p>
-    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="location.href='https://worldcat.org'"   type="button">Add Book</button>
     <button onclick="this.parentNode.remove()" type="button">Remove</button>
   </div>
 
@@ -42,7 +67,7 @@
     <p>J.R.R. Tolkien</p>
     <p>450 pages</p>
     <p>9780618574940</p>
-    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="location.href='https://worldcat.org'"  type="button">Add Book</button>
     <button onclick="this.parentNode.remove()" type="button">Remove</button>
   </div>
 
@@ -51,7 +76,7 @@
     <p>J.R.R. Tolkien</p>
     <p>500 pages</p>
     <p>9780618260584</p>
-    <button onclick="location.href='https://worldlibrary.com'" type="button">Add Book</button>
+    <button onclick="location.href='https://worldcat.org'"  type="button">Add Book</button>
     <button onclick="this.parentNode.remove()" type="button">Remove</button>
   </div>
   <script src="app.js"></script>
